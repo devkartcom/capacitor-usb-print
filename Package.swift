@@ -2,10 +2,10 @@
 import PackageDescription
 
 let package = Package(
-    name: "Aybinv7CapacitorUsbPrint",
+    name: "DevkartcomCapacitorUsbPrint",
     platforms: [.iOS(.v15)],
     products: [
-        .library(name: "Aybinv7CapacitorUsbPrint", targets: ["Aybinv7CapacitorUsbPrint"])
+        .library(name: "DevkartcomCapacitorUsbPrint", targets: ["DevkartcomCapacitorUsbPrint"])
     ],
     dependencies: [
         .package(
@@ -15,7 +15,7 @@ let package = Package(
     ],
     targets: [
         .target(
-            name: "Aybinv7CapacitorUsbPrint",
+            name: "DevkartcomCapacitorUsbPrint",
             dependencies: [
                 .product(name: "Capacitor", package: "capacitor-swift-pm"),
                 .product(name: "Cordova", package: "capacitor-swift-pm")

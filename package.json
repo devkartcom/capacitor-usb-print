@@ -1,6 +1,6 @@
 {
-  "name": "@aybinv7/capacitor-usb-print",
-  "version": "0.1.1",
+  "name": "@devkartcom/capacitor-usb-print",
+  "version": "0.1.2",
   "description": "Capacitor plugin for raw ESC/POS printing to Android USB printer-class devices.",
   "main": "dist/plugin.cjs.js",
   "module": "dist/esm/index.js",
@@ -14,11 +14,11 @@
     "CapacitorUsbPrint.podspec",
     "Package.swift"
   ],
-  "author": "devsaran",
+  "author": "Devkart Technologies LLP",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/devsaran/capacitor-usb-print.git"
+    "url": "git+https://github.com/devkartcom/capacitor-usb-print.git"
   },
   "keywords": [
     "capacitor",
@@ -50,5 +50,9 @@
     "android": {
       "src": "android"
     }
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/devkartcom/capacitor-usb-print/issues"
+  },
+  "homepage": "https://github.com/devkartcom/capacitor-usb-print#readme"
 }

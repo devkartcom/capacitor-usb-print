@@ -1,10 +1,10 @@
-# @aybinv7/capacitor-usb-print
+# @devkartcom/capacitor-usb-print
 
 Capacitor plugin that sends raw printer bytes (ESC/POS etc.) to a USB receipt printer
 on **Android**. iOS and web reject every call with the code `NOT_SUPPORTED`.
 
 ```ts
-import { UsbPrint } from '@aybinv7/capacitor-usb-print';
+import { UsbPrint } from '@devkartcom/capacitor-usb-print';
 
 const { printers } = await UsbPrint.listPrinters();
 // [{ deviceId: '0416:5011', name: 'POS58 VID:0416 PID:5011 ...', connected: false }]
@@ -38,11 +38,24 @@ The package is installed from a git tag; `dist/` is committed so no build step r
 install.
 
 ```sh
-npm i github:devkartcom/capacitor-usb-print#v0.1.1
+npm i github:devkartcom/capacitor-usb-print#v0.1.2
 npx cap sync android
 ```
 
 Peer dependency: `@capacitor/core >= 8.0.0`.
+
+## About Devkart
+
+Built and maintained by [Devkart Technologies LLP](https://devkart.com): custom software,
+SaaS platforms and MVPs. We run this plugin in production in our own two products:
+
+- **[Supaorder](https://www.supaorder.com)**: white-label online ordering for restaurants.
+  Orders go straight into Clover, Square or Toast, and restaurants pay a flat monthly fee
+  instead of a commission.
+- **[SuperApp](https://www.superapphq.com)**: a white-label multi-vertical marketplace
+  platform for food delivery, retail and supermarkets.
+
+Questions or issues: open a GitHub issue, or write to contact@devkart.com.
 
 ## License
 
